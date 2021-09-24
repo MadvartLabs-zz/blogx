@@ -1,0 +1,15 @@
+@import "vars";
+@import "layout";
+@import "animations";
+@import "transitions";
+@import "util";
+@font-face {
+    font-family: "SolaimanLipi";
+    src: url("../fonts/SolaimanLipi_20-04-07.woff") format("woff");
+  }
+$family-blog: "SolaimanLipi", Tahoma, sans-serif;
+$family-primary:$family-blog;
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
